@@ -9,21 +9,27 @@ class Line
   end
 
   def join(person)
+    members.push(person)
   end
 
   def leave(person)
+    members.delete(person)
   end
 
   def front
+    members[0]
   end
 
   def middle
+    members[(members.length / 2).round]
   end
 
   def back
+    members.last
   end
 
   def search(person)
+    members.include?(person) ? person : "This person is not in line."
   end
 
   private
