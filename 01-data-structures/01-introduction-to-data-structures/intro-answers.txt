@@ -1,0 +1,9 @@
+Line
+* An array works well for a line of people because people in line are organized by their place in line, similar to an index. People can join the end of the line (like the array push method) or leave their spot in line (like the pop or delete methods).
+* In order to search for the specific person in the array or line, a user could search using the person's place in line or index in the array. A user could also use the name of the person to see if that person is included in the array or in the line.
+* An array works well for any ordered list.
+
+Screen & Pixel
+* The x, y, width, height and color values are validated first. Then, the location and color of the pixels, as well as the sizing of the screen are determined with these variables.
+* A user can search for a pixel on a screen based on its coordinates.
+* This structure works well for representing information where location is essential, such as a map or a game where pieces are placed at specific points on a board.
