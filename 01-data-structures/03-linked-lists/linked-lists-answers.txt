@@ -1,0 +1,2 @@
+1. Spatial Locality refers to storing data by location. It benefits performance because the computer can pull all data in one general area and reduce the need for repeating the process of pulling data.
+2. Arrays perform much more efficiently than linked lists. 
