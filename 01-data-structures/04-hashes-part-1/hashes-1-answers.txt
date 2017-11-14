@@ -1,0 +1,1 @@
+Doubling the size of the underlying array of the HashClass would not work well because as the array becomes larger and larger, it would become more and more inefficient in terms of time and memory. 
