@@ -1,0 +1,5 @@
+1. Hopscotch hashing, Robin Hood hashing and coalesced hashing are collision resolution strategies not mentioned here.
+    * Hopscotch hashing is like a combination of cuckoo hashing and linear probing. First, it tries to insert an entry into a nearby bucket. If all neighboring buckets are full, it operates like linear probing, searching buckets in order for an opening. Then once buckets are found, items are moved, moving closer to the neighborhood, in hops.
+    * Robin Hood hashing is similar to double hashing, but it allows a new key to replace an existing key if its probe count is larger than the current key.
+    * Coalesced hashing is a combination of chaining and open addressing methods. It links together chains of nodes within the table, but it can't have more elements than table spots.
+2. My idea for making collision resolution more efficient is to have a stored boolean value of whether or not there is an opening that would be checked before searching through the hash. If there was an opening, opening positions could also be stored, so that the hash wouldn't have to be searched.
