@@ -1,0 +1,3 @@
+After comparing the performance of the binary search tree and the binary heap, I would use a binary heap when I want to find or insert the smallest or largest value.
+I would use a binary search tree when I want to add or locate any value.
+Therefore, I would think that the binary search tree would generally be more useful, depending on the situation.
