@@ -1,0 +1,50 @@
+# Taking my dog out for a walk
+DEF WALK(energy)
+  IF energy is high THEN
+    walk toward the dog park
+    IF plays with puppy on the way THEN
+      go home
+    ELSE
+      go to the dog park
+      IF dog still has energy THEN
+        take long way home
+      ELSE
+        take short way home
+      ENDIF
+    ENDIF
+  ELSE
+    walk around the neighborhood
+    play in park
+    go home
+  ENDIF
+END
+
+# Feeding my cat
+DEF FEED(time)
+  IF time == 6 AM or 3 PM or 10 PM THEN
+    pour 1/8 of a cup of food into bowl
+    check water
+    IF water is not full THEN
+      fill water
+    ENDIF
+  ENDIF
+END
+
+# Making coffee
+DEF COFFEE
+  grind coffee beans
+  GET number of scoops of ground coffee
+  SET amount to number of scoops
+  SET amount of water to one more than number of scoops
+  put coffee filter in machine
+  add ground coffee
+  add water
+  IF amount is more than 4 THEN
+    choose higher setting
+  ELSE
+    choose lower setting
+  ENDIF
+  start machine
+  wait for machine to finish
+  pour coffee
+END
