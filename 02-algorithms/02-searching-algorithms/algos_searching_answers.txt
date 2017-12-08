@@ -1,0 +1,18 @@
+1. It would take 7 iterations to find the value G using linear search.
+2. It would take 3 iterations to find the value G using binary search.
+3. fib(10) = fib(9) + fib(8) = 21 + 13 = 34
+   fib(11) = fib(10) + fib(9) = 34 + 21 = 55
+   fib(12) = fib(11) + fib(10) = 55 + 34 = 89
+
+
+4. Recursive vs. iterative solutions:
+
+user     system      total        real
+fibonacci_recursive(20):   0.000000   0.000000   0.000000 (  0.000006)
+fibonacci_iterative(20):   0.000000   0.000000   0.000000 (  0.000005)
+
+5. Given an unsorted collection of a million items, I would choose a linear search because it works best with unsorted data.
+I would also choose an iterative solution because it would be faster than recursion.
+Speed and efficiency would be especially important given the amount of data.
+6. Given a sorted collection of a million items, I would choose a binary search because it works best with sorted data.
+I would also choose an iterative solution because it would be faster with so much data.
