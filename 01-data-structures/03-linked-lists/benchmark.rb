@@ -1,4 +1,5 @@
 require 'benchmark'
+include Benchmark
 require_relative 'node'
 require_relative 'linked_list'
 
