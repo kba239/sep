@@ -1,0 +1,13 @@
+4. Benchmark results:
+
+            user     system      total        real
+Heap Sort:   0.000000   0.000000   0.000000 (  0.000047)
+Quick Sort:   0.000000   0.000000   0.000000 (  0.000069)
+Bucket Sort:   0.000000   0.000000   0.000000 (  0.000156)
+
+5. Heap sort was the fastest, followed by quick sort, and then bucket sort.
+Heap and quick sorts were significantly faster than bucket sort in this case.
+I believe the difference in performance between quick and heap sorts and the bucket sort would increase as the number of items increased.
+The performance of the heap sort would probably decrease as the number of items increased, making the quick sort the best choice for larger sets of items.
+The performance of the bucket sort depends on the number of buckets used.
+For example, if the items were only sorted into two buckets, the bucket sort would perform similarly to a quick sort.
