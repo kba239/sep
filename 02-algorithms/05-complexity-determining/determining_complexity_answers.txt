@@ -1,0 +1,6 @@
+1. The Big-O of this algorithm is O(1) because it does the same thing (and the same number of times) no matter what the input, therefore it is constant.
+2. The Big-O of this algorithm is O(n) because the number of operations grows as the argument grows in size.
+3. The Big-O of this algorithm is also O(n) because the method has to iterate through each item, making the time increase linearly.
+4. The Big-O of this algorithm is O(2^n) because as the number increases, the execution time increases at an exponential rate.
+5. The Big-O of this algorithm is O(n) because the number of operations grows as the argument grown, but each iteration runs in constant time.
+6. The Big-O of this algorithm is O(n^2),reduced down from x((n-1)(n/2)-1). The while loop is O(n), but each recursive call adds a x(n-1), giving you the full formula. 
