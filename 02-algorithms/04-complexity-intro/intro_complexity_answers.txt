@@ -1,0 +1,9 @@
+1. An algorithm that has O(1) efficiency is like a plane and an algorithm that has O(2^n) efficiency is like a bike.
+2. The best case scenario for binary search is 𝛀(1), which would mean that the item is found on the first try.
+3. The worst case scenario for binary search is O(log n), which would mean that the item is not found and all items are searched.
+4. The bounded-case scenario for binary search is 𝛳(log n), which would mean that the item is found between O(1) and O(log n).
+6. The limit of the function as n approaches infinity is infinity.
+7. The Big-O of an algorithm that has the data points above is O(2^n).
+10. The Big-O of binary search is O(log n).
+11. The Big-Omega of binary search is 𝛀(1).
+12. The Big-Theta of binary search is 𝛳(log n).
