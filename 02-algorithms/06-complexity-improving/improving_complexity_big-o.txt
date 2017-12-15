@@ -1,0 +1,18 @@
+Benchmark results for two arrays:
+user     system      total        real
+user     system      total        real
+Version One:   0.000000   0.000000   0.000000 (  0.000024)
+Version Two:   0.000000   0.000000   0.000000 (  0.000034)
+Version Three:   0.000000   0.000000   0.000000 (  0.000022)
+Original:   0.000000   0.000000   0.000000 (  0.000041)
+
+Benchmark results for four arrays:
+user     system      total        real
+Version One:   0.000000   0.000000   0.000000 (  0.000078)
+Version Two:   0.000000   0.000000   0.000000 (  0.000074)
+Version Three:   0.000000   0.000000   0.000000 (  0.000092)
+Original:   0.000000   0.000000   0.000000 (  0.000105)
+
+1. Version one performs at O(n^2).
+2. Version two performs at O(n log n).
+3. Version three performs at O(n^2).
