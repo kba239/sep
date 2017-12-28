@@ -1,0 +1,49 @@
+1. Remove duplicates:
+a) User.all.unique?
+b) SELECT DISTINCT name FROM user;
+
+2. Filter records using inequalities, pattern matching, ranges, and boolean logic:
+a) Comment.all.starts_with('a')
+b) SELECT * FROM comment WHERE body LIKE 'a%';
+
+3. Sort records:
+a) Comment.all.sort(id, asc)
+b) SELECT * FROM comment ORDER BY id ASC;
+
+4. Limit records:
+a) User.all.sort(id, asc, 2)
+b) SELECT * FROM user ORDER BY id ASC LIMIT 2;
+
+5. Group records:
+a) Comment.all.group(user_id)
+b) SELECT user_id, COUNT(*) FROM comment
+   GROUP BY user_id;
+
+6. Perform calculations:
+a) Comment.all.add_up(id)
+b) SELECT SUM(id) FROM comment;
+
+7. Join tables using cross join, inner join, and outer join:
+a) cross join:
+    User.all.name
+    Post.all.body
+    Comment.all.body
+
+  inner join:
+    User.all.id.join_on(Comment.all.user_id)
+
+  outer join:
+    User.all.id.join_on(Comment.all.user_id)
+
+b) cross join:
+    SELECT user.name, post.body, comment.body FROM user, post, comment;
+
+
+  inner join:
+    SELECT * FROM user
+    JOIN comment ON comment.user_id = user.id;
+
+
+  outer join:
+    SELECT * FROM user
+    LEFT JOIN comment ON comment.user_id = user.id;
