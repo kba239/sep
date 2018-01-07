@@ -1,0 +1,9 @@
+1. A RubyGem is an application or library that is useful for supplementing another application. By creating BlocRecord as a RubyGem, we can easily integrate it with AddressBloc.
+2. A method that uses lazy loading only executes when necessary and provides requested data, while a method that uses eager loading executes when created and also provides related data.
+3. CREATE TABLE creates a table with specified headers, rows, and columns; INSERT INTO adds the data into the rows and columns of the table.
+4. Extend provides access to class methods from a module, while include provides access to instance methods.
+5. The save methods in persistence.rb need to be instance methods (instead of class methods) because the databases is being saved as an instance of BlocRecord.
+6.  UPDATE Character
+    SET character_name = "Jar-Jar Binks", star_rating = 1
+    WHERE id = #{self.id};
+7. We will need to use BlocRecord's create method.
